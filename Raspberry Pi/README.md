@@ -68,8 +68,7 @@ Port: `22`
 `ssh pi@raspberrypi.local`  
 
 #### Step 4 - Enabling VNC (Optional)
-This enables [VNC](https://www.realvnc.com/en/connect/download/viewer/)  
-In the Raspberry Pi Terminal:  
+Download and Install [VNC](https://www.realvnc.com/en/connect/download/viewer/) and in the Raspberry Pi's terminal run    
 ```sudo raspi-config```  
 Go to **Interface Options** -> **VNC** -> **Enable**  
 Then reboot with ```sudo reboot```
