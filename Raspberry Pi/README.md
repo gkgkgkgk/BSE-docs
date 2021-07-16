@@ -64,7 +64,7 @@ Install [PuTTY](https://www.putty.org/) for SSH
 Host Name: `raspberrypi.local`  
 Port: `22`  
 
-#### For MacOS / Linux
+##### For MacOS / Linux
 `ssh pi@raspberrypi.local`  
 
 #### Step 4 - Enabling VNC (Optional)
