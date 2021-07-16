@@ -67,7 +67,7 @@ Port: `22`
 #### For MacOS / Linux
 `ssh pi@raspberrypi.local`  
 
-#### Step 4 (Optional)
+#### Step 4 - Enabling VNC (Optional)
 This enables [VNC](https://www.realvnc.com/en/connect/download/viewer/)  
 In the Raspberry Pi Terminal:  
 ```sudo raspi-config```  
