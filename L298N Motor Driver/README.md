@@ -1,5 +1,5 @@
 # L298N Motor Driver
-![L298N](l298n.jpg | width = 200)
+<img src = "l298n.jpg" width="200">
 
 ## What is the L298N?
 The L298N is a motor driver chip. What this means is that we connect the L298N in between the Arduino and the motors we're using. By having this chip as a middleman, we're able to accomplish more complex functionality more easily, and we can maintain safety better. The motor driver chip allows us to control the spinning direction of motors using an H-Brige (as demonstrated below). It also makes it more clear how to wire the motors together. In addition it regulates the power given to the motors to lessen the chances of frying any component.  
