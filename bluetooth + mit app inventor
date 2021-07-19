@@ -1,0 +1,34 @@
+# Bluetooth Module
+
+### Circuit Diagram:
+
+HC-05 RX → Arduino Pin 0
+HC-05 TX → Arduino Pin 1
+HC-05 GND → Arduino GND
+HC-05 VCC → Arduino 5v
+![](https://maker.pro/storage/xGHSPgr/xGHSPgrXjdGGHNqMCWlWXsEj4xZYhZdxlYnJ1ONB.jpeg)
+
+### Code:
+
+char data = 0; // variable to hold incoming bluetooth data
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(13, OUTPUT);
+}
+void loop()
+{
+  if (Serial.available() > 0) // make sure bluetooth serial connection is available
+  {
+    data = Serial.read(); // set data variable to incoming data from the bluetooth module
+ Serial.println(data);
+    if (data == '1') { // if the incoming data is set '1'
+      digitalWrite(13, HIGH); // turn on LED
+    }
+    else if (data == '0') {
+      digitalWrite(13, LOW);
+    }
+  }
+}
+
+Note: Remember to unplug the RX and TX pins from the Arduino in order to successfully upload the code!  
