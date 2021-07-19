@@ -1,4 +1,7 @@
 # L298N Motor Driver
+An example code that can be used to test out the motors can be found in the current directory entitled: motorTest.ino  
+This code tests hte motor functionality running forwards and backwards. It also tests out the speed control of the motors.  
+The pins in the program match the pins in the wiring diagrams shown below.
 
 ##### Useful graphic for understanding how an H-Bridge works: 
 ![H-Bridge Gif](https://lastminuteengineers.com/wp-content/uploads/arduino/H-Bridge-Working-Motor-Direction-Control-Animation.gif)
