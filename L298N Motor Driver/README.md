@@ -3,8 +3,8 @@
 ##### Useful graphic for understanding how an H-Bridge works: 
 ![H-Bridge Gif](https://lastminuteengineers.com/wp-content/uploads/arduino/H-Bridge-Working-Motor-Direction-Control-Animation.gif)
 
-### Powering the Motor Driver 
-# Common issues:
+## Powering the Motor Driver 
+### Common issues:
 When powering 4 motors for tank drive, the two motors on the left should be in parallel with each other, and the two motors on the right should be in parallel with each other.  
 In this configuration the motor driver typically needs to be supplied with ~9V. However, very often a 9V battery won't supply enough current for the motors to run. In addition, sometimes 4 AA batteries in series can power the motors, however once they drop just a little bit in voltage, they will no longer work.  
 There are two ways to power it that should work consistently. If the student has a battery pack that can sit 6 AA batteries (or 2 battery packs that can be used in series), this will supply enough voltage and current to power the motors for a decent amount of time. If the student can't wire 6 AA batteries in series, then they can power Arduino using the wall adapter and then wire the V_in pin from Arduino into the +12V on the L298N.  
