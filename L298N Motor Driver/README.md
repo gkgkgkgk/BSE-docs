@@ -4,13 +4,13 @@
 ## What is the L298N?
 The L298N is a motor driver chip. What this means is that we connect the L298N in between the Arduino and the motors we're using. By having this chip as a middleman, we're able to accomplish more complex functionality more easily, and we can maintain safety better. The motor driver chip allows us to control the spinning direction of motors using an H-Brige (as demonstrated below). It also makes it more clear how to wire the motors together. In addition it regulates the power given to the motors to lessen the chances of frying any component.  
 
+##### Useful graphic for understanding how an H-Bridge works: 
+![H-Bridge Gif](https://lastminuteengineers.com/wp-content/uploads/arduino/H-Bridge-Working-Motor-Direction-Control-Animation.gif)
+
 ### Sample Code
 An example code that can be used to test out the motors can be found in the current directory entitled: motorTest.ino  
 This code tests the motor functionality running forwards and backwards. It also tests out the speed control of the motors.  
 The pins in the program match the pins in the wiring diagrams shown below.
-
-##### Useful graphic for understanding how an H-Bridge works: 
-![H-Bridge Gif](https://lastminuteengineers.com/wp-content/uploads/arduino/H-Bridge-Working-Motor-Direction-Control-Animation.gif)
 
 ### Powering the Motor Driver:
 When powering 4 motors for tank drive, the two motors on the left should be in parallel with each other, and the two motors on the right should be in parallel with each other.  
