@@ -27,3 +27,5 @@ Below are illustrations of these 2 methods of connecting:
 ### Common issues:
 Often the students won't realize that they must take the caps off of the EN_A and EN_B pins in order to allow them to control the speeds of the motor drivers. Some students also try to connect the wires to EN_A and EN_B with the caps still on top too.  
 If one or more motors motors is rotating slower than the others or are not rotating at all, this is likely due to power issues. So refer to the guide above for powering. If the motors were working and then stopped working without a change in the wiring this is also likely due to power issues.  
+
+Wires typically don't stay attached to the motors very well. Therefore soldering is recommended in order to keep wires secured to the motors. For testing purposes, jumper wires can usually be wedged into the fins on the motor. Alternatively jumper cables can be used for a more secure connection.
